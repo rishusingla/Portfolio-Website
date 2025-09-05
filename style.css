@@ -163,7 +163,7 @@ body {
   font-size: 1.3rem;
   color: white;
   transition: transform 0.3s, box-shadow 0.3s;
-  /* background: var(--btn-bg); */
+  background: var(--btn-bg);
 }
 .socials a:hover {
   transform: scale(1.1);
