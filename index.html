@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="dark">
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">My<span>Portfolio</span></h1>
+
+            <!-- Nav Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
+            </ul>
+
+            <!-- Theme + Hamburger -->
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn">☀️Theme</button>
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <!-- Left Side Content -->
+            <div class="intro">
+                <h2>Hey, I'm <span>Rishu Singla</span> 👋</h2>
+                <h3>I'm a <span class="typing"></span></h3>
+                <p>
+                    Frontend Developer learning Backend, passionate about building creative web apps and growing into a
+                    Full-Stack Developer.
+                </p>
+
+                <!-- Social Icons -->
+                <div class="socials">
+                    <a href="https://github.com/rishusingla" class="github"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rishu-singla-1b3598251/" class="linkedin"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto: rishusingla289@email.com" class="email"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <a href="assests/Resume 2.pdf" class="btn" target="_blank">Download CV</a>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="profile-img">
+                <img src="assests/WhatsApp Image 2025-08-15 at 09.40.23_04cc46ca.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <!-- Left Side Image -->
+            <div class="about-img">
+                <img src="assests/WhatsApp Image 2025-08-15 at 09.40.23_04cc46ca.jpg" About Image />
+            </div>
+
+            <!-- Right Side Content -->
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>
+                    I am a Frontend Developer and Computer Science Engineering student with a strong foundation in HTML,
+                    CSS, JavaScript, React, and Tailwind CSS. I have hands-on experience building responsive and
+                    user-friendly web applications and have completed an internship at Azure Skynet, where I developed
+                    the frontend of a travel website.
+
+                    Currently, I am expanding my expertise in backend technologies such as Node.js, Express.js, and
+                    MongoDB to become a well-rounded Full-Stack Developer. I actively participate in open-source
+                    contributions, including serving as a contributor in GirlScript Summer of Code (GSSoC).
+
+                    I am passionate about solving problems, exploring new technologies, and creating impactful digital
+                    solutions.
+                    <!-- My long-term goal is to build scalable applications that deliver excellent user
+                    experiences while continuously enhancing my technical and professional skills. -->
+                </p>
+                <button class="btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+
+            <!-- Languages -->
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><i class="fa-solid fa-c"></i> C</div>
+                    <div class="skill-item"><i class="fa-solid fa-code"></i> C++</div>
+                    <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML</div>
+                    <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                    <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                </div>
+            </div>
+
+            <!-- Frameworks & Libraries -->
+            <div class="skill-card">
+                <h3>Frameworks & Libraries</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><i class="fa-brands fa-react"></i> React</div>
+                    <div class="skill-item"><i class="fa-solid fa-cubes"></i> Redux</div>
+                    <div class="skill-item"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                    <div class="skill-item"><i class="fa-brands fa-bootstrap"></i> Bootstrap</div>
+                    <div class="skill-item"><i class="fa-solid fa-wind"></i> Tailwind CSS</div>
+
+
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><i class="fa-brands fa-git-alt"></i> Git</div>
+                    <div class="skill-item"><i class="fa-brands fa-github"></i> GitHub</div>
+                    <div class="skill-item"><i class="fa-solid fa-code-branch"></i> VS Code</div>
+                </div>
+            </div>
+
+            <!-- Core Concepts -->
+            <div class="skill-card">
+                <h3>Core Concepts</h3>
+                <div class="skills-list">
+                    <div class="skill-item"><i class="fa-solid fa-database"></i> DSA</div>
+                    <div class="skill-item"><i class="fa-solid fa-lightbulb"></i> Problem Solving</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-container">
+
+            <!-- Projects -->
+            <div class="portfolio-card">
+                <h3>Projects</h3>
+                <ul class="portfolio-list">
+                    <li>
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Password Generator</span>
+                        <a href="https://github.com/rishusingla/Password-Generator" target="_blank" class="btn">View</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-book"></i>
+                        <span>Notes Sharing Platform</span>
+                        <a href="https://github.com/rishusingla/Notes-Hub" target="_blank" class="btn">View</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Basic React Projects</span>
+                        <a href="https://github.com/rishusingla/js-projects-v2" target="_blank" class="btn">View</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-clone"></i>
+                        <span>Amazon UI clone</span>
+                        <a href="https://github.com/rishusingla/Amazon-Clone" target="_blank" class="btn">View</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Certificates -->
+            <div class="portfolio-card">
+                <h3>Certificates</h3>
+                <ul class="portfolio-list">
+                    <li>
+                        <i class="fas fa-certificate"></i>
+                        <span>Python Fundamentals for Begineers</span>
+                        <a href="assests/RISHU SINGLA (1).pdf" target="_blank" class="btn">View</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-certificate"></i>
+                        <span>Data Structures & Algorithms</span>
+                        <a href="assests/RISHU SINGLA.pdf" target="_blank" class="btn">View</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-certificate"></i>
+                        <span>Internship Certificate</span>
+                        <a href="assests/internship.jpg" target="_blank" class="btn">View</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-certificate"></i>
+                        <span>AI Tool Workshop</span>
+                        <a href="assests/1698155575591.pdf" target="_blank" class="btn">View</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">📬 Contact Me</h2>
+        <p class="contact-subtitle">Let’s connect! Feel free to reach out to me via email or through this form.</p>
+
+        <div class="contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <p><strong>Email:</strong> rishusingla289@email.com</p>
+                <p><strong>Phone:</strong> +91 XXXXXX1590</p>
+                <p><strong>Location:</strong> Punjab, India</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" id="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
